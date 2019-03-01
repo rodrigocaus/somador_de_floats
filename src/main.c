@@ -9,9 +9,9 @@
 
 int main() {
 
-  int x, y;
+  int x, y, z = 0;
 
   scanf("%d %d\n", &x, &y);
-  printf("%d\n", x + 200);
+  printf("%d %d\n", x + 200, z);
   return 0;
 }
